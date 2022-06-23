@@ -1,0 +1,51 @@
+body {
+    font: 20px Helvetica, Verdana;
+}
+
+.sidenote {
+    color: red;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.carousel {
+    background-color: yellowgreen;
+    padding-top: 500px;
+}
+
+.margin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.quem-somos {
+    float: left;
+    margin: 30px 50px 0px 150px;
+}
+
+.txt-format {
+    direction: ltr;
+    text-align: justify;
+    margin-right: 90px;
+    line-height: 300%;
+}
+
+.txt-formatL {
+    direction: ltr;
+    text-align: justify;
+    margin-left: 90px;
+    line-height: 300%;
+}
+
+.prod-fisio {
+    float: right;
+    margin: 30px 150px 0px 50px;
+}
+
+.bg-footer {
+    background-color: black;
+    text-align: left;
+    color: white;
+    font: 15px Helvetica;
+}
