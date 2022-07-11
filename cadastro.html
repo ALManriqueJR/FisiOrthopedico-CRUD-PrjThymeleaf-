@@ -14,33 +14,21 @@
 
 <body>
     <section id="paciente">
-        <fieldset>
-            <Legend>Paciente</Legend>
-            <form class="form-inline">
-                <input id="nome" type="text" placeholder="Nome" size="30">
-                <br><br>
-                <input id="idade" type="text" placeholder="Idade" size="1">
-                <br><br>
-                <input id="rua" type="text" placeholder="Rua"size="30">
-                <br><br>
-                <input id="bairro" type="text" placeholder="Bairro" size="10">
-                <br><br>
-                <input id="cidade" type="text" placeholder="Cidade" size="10">
-                <br><br>
-                <input id="telefone" type="text" placeholder="Telefone" size="10">
-                <br><br>
-                <input id="profissao" type="text" placeholder="Profissão" size="15">
-                <br><br>
-                <input id="diag" type="text" placeholder="Diagnóstico" size="10">
-                <br><br>
-                <textarea placeholder="OBS" cols="80" rows="5"></textarea>
-            </form>
-            
-
-        </fieldset>            
-        <button id="btn" type="submit" role="button" value="submit">
-            <a href="#">Registrar</a>
-        </button>
+        <h2>Paciente</h2>
+        <form class="flex" action="cadastro.php" method="POST">
+        <input class="campo" name="nome" type="text" placeholder="Nome" size="34" width="100%">
+            <input class="campo" name="data-nasc" type="date" placeholder="DataNasc." size="34" width="100%">
+            <input class="campo" name="rua" type="text" placeholder="Rua" size="34" width="100%">
+            <input class="campo" name="bairro" type="text" placeholder="Bairro" size="34" width="100%">
+            <input class="campo" name="cidade" type="text" placeholder="Cidade" size="12" width="100%">
+            <input class="campo" name="telefone" type="text" placeholder="Telefone" size="13" width="100%">
+            <input class="campo" name="email" type="text" placeholder="Email" size="34" width="100%">
+            <input class="campo" name="profissao" type="text" placeholder="Profissão" width="100%">
+            <input class="diag" name="diagnostico" type="text" placeholder="Diagnóstico" width="50%">
+            <input id="btn" type="submit" name="submit" value="Registrar" role="button" value="submit">
+            <br><br>
+            <textarea name="obs" placeholder="OBS" rows="5"></textarea>
+        </form>
     </section>
 
 </body>

@@ -3,7 +3,21 @@ body {
     background-image: linear-gradient(80deg, #15a696, white);
 }
 
-section {
+section#paciente {
+    background-color: rgba(4, 54, 65, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    color: white;
+    min-width: 300px;
+    max-width: 300px;
+    overflow: auto;
+}
+
+section#login {
     background-color: rgba(4, 54, 65, 255);
     position: absolute;
     top: 50%;
@@ -14,23 +28,20 @@ section {
     color: white;
     position: fixed;
 }
-section#paciente{
-    width: 50%;
-}
 
-fieldset {
-    min-width: 200px;
-}
 
 h1 {
-    padding-left: 30%;
+    padding-left: 34%;
+}
+
+h2 {
+    padding-left: 40%;
 }
 
 input {
     padding: 10px;
     border: none;
     outline: none;
-    
 }
 
 
@@ -44,28 +55,44 @@ button.botao {
     color: white;
 }
 
-button#btn {
-    background-image: linear-gradient(40deg, #15a696, white);
-    border: 1px solid;
-    padding: 2%;
-    width: 30%;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-left: 33%;
-    color: white;
+button,
+input[type="submit"],
+input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    outline: inherit;
 }
 
-
-button:hover {
+input[type=submit] {
+    padding: 4%;
+    background-image: linear-gradient(40deg, #15a696, white);
     cursor: pointer;
+    border-radius: 5px;
+    margin: 2%;
+    margin-left: 7%;
+    width: 25%;
+}
+
+.flex {
+    display: inline;
+}
+
+input.campo {
+    margin: 4px;
+}
+
+input.diag {
+    min-inline-size: 55%;
+    margin-left: 3px;
 }
 
 textarea {
     resize: none;
-    width: 100%;
+    width: 95%;
+    margin: 1px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+button:hover {
+    cursor: pointer;
 }
