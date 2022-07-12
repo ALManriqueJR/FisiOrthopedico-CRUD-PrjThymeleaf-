@@ -1,4 +1,0 @@
-html = 5
-css = 3
-bootstrap >= 3.4.1
-jquery >= 3.6.0
